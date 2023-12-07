@@ -1,0 +1,16 @@
+.history {
+    background-color: #12221D;
+    height: 100vh;
+    text-align: center;
+}
+.box1 {
+    background-color: rgb(219, 212, 203);
+    width: 50vw;
+    text-align: center;
+    
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+

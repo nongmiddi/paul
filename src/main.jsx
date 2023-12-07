@@ -4,6 +4,7 @@ import App from './App.jsx'
 import Editpage from './Pages/editPage.jsx'
 import './index.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import History from './Pages/history.jsx'
 
 
 export default function App1(){
@@ -13,6 +14,7 @@ export default function App1(){
         <Routes>
             <Route index element={<App />}/>
             <Route path="/editPage" element={<Editpage />}/>
+            <Route path="/history" element={<History />}/>
         </Routes>
       
       </BrowserRouter>
