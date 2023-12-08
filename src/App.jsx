@@ -12,6 +12,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   const [modal, setModal] = useState(false);
   const [buy, setBuy] = useState(false);
+  const [yes,setYes]=useState(false);
 
 
   const toggleModal = () => {
@@ -20,6 +21,10 @@ function App() {
 
   const toggleModal2 = () => {
     setBuy(!buy);
+  };
+
+  const toggleModal3 = () => {
+    setYes(!yes);
   };
 
   return (
@@ -40,11 +45,24 @@ function App() {
           
           <div className='accept'> Do you want to use this voucher?</div>
           <div className='choose'>
-          <button className='BUT'> yes </button>
+          <button className='BUT' onClick={() => { toggleModa12(); toggleModal3();}}> yes </button>
           <button className='BUT' onClick={() => { toggleModal(); toggleModal2();}}> no </button>
           </div>
           
 
+          </div>
+        </div>
+      )}
+
+      {yes && (
+        <div className="modal">
+
+          <div className="overlay"></div>
+          <div className="modal-content" style={{width:"350px" , height:"100px" , paddingBottom:"10px" ,paddingTop:"50px"}}>
+          
+          <div className='qr'>
+          <img className='img1' src='/images/QR.png' /> 
+          </div>
           </div>
         </div>
       )}

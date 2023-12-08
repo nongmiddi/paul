@@ -5,7 +5,7 @@ import { faEnvelope, faUserPen,faChevronLeft } from '@fortawesome/free-solid-svg
 function edit(){
     return(
         <div className='edit'>
-                <div><button className='back'><FontAwesomeIcon icon={faChevronLeft} style={{color: "#ffffff",}}/></button></div>
+                
                 <div><img className='Profile1' src='/images/Profile.png' /></div>
                 <div><button className='Change'> CHANGE     <FontAwesomeIcon icon={faUserPen} /></button></div>
                 <div className='name'> Wannaporn TeachaBunnaput </div>
@@ -31,9 +31,9 @@ function edit(){
             </div>
 
             <div> 
-                <button className='savebut'> 
+                <a href="/"><button className='savebut'> 
                     SAVE
-                </button>
+                </button></a>
             </div>
         </div>
     );

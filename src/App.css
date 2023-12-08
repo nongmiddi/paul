@@ -79,7 +79,17 @@
   margin-bottom: 15px;
 }
 .BUT{
-  border-radius: 20px;
-  
-
+  border-radius: 8px;
+  width: 70px;
+  padding: 2px;
+  margin: 5px;
+  border-color:#dbe2b0 ;
+  font-size: 16px;
+  color: #dbe2b0;
+  background-color: #12221D;
+}
+.BUT:hover{
+  background-color: #FFDE66;
+  color: black;
+  transition: 0.3s;
 }
