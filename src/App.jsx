@@ -45,7 +45,7 @@ function App() {
           
           <div className='accept'> Do you want to use this voucher?</div>
           <div className='choose'>
-          <button className='BUT' onClick={() => { toggleModa12(); toggleModal3();}}> yes </button>
+          <button className='BUT' onClick={() => { toggleModal2(); toggleModal3();}}> yes </button>
           <button className='BUT' onClick={() => { toggleModal(); toggleModal2();}}> no </button>
           </div>
           
@@ -58,10 +58,12 @@ function App() {
         <div className="modal">
 
           <div className="overlay"></div>
-          <div className="modal-content" style={{width:"350px" , height:"100px" , paddingBottom:"10px" ,paddingTop:"50px"}}>
+          <div className="modal-content" style={{width:"450px" , height:"fit-content" , paddingBottom:"20px" ,paddingTop:"70px"}}>
           
           <div className='qr'>
+          <div className='vou'>Use voucher for make 30% discount</div>
           <img className='img1' src='/images/QR.png' /> 
+
           </div>
           </div>
         </div>

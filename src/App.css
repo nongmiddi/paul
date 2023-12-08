@@ -93,3 +93,11 @@
   color: black;
   transition: 0.3s;
 }
+
+
+
+.img1 {
+  width: 100px;
+  margin-bottom: 10px; /* Add margin to separate image and text */
+}
+
