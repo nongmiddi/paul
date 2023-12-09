@@ -61,7 +61,7 @@ function App() {
           <div className="modal-content" style={{width:"450px" , height:"fit-content" , paddingBottom:"20px" ,paddingTop:"70px"}}>
           
           <div className='qr'>
-          <div className='vou'>Use voucher for make 30% discount</div>
+          <div >Use voucher for make 30% discount</div>
           <img className='img1' src='/images/QR.png' /> 
 
           </div>
@@ -108,19 +108,14 @@ function App() {
      
       
      <div className="choice-container">
-        <button className="choice-item">BALANCE</button>
+        <a href="/balance"><button className="choice-item" >BALANCE</button></a>
         <div className="choice-item" > | </div>
         <a href="/editPage"><button className="choice-item" >EDIT</button></a>
         <div className="choice-item"> | </div>
         <a href="/history"><button className="choice-item" >HISTORY</button></a>
       </div>
 
-      <div className="depost-container">
-        <div className="depost-item">2000 <FontAwesomeIcon icon={faDollarSign} /></div>
-        <button className='depost-button'> DEPOSIT </button>
-        
-      </div>
-
+      
       
 
     

@@ -23,18 +23,30 @@ th, td {
 }
 
 th {
-    background-color: #000000;
+    background-color: #295b4d;
     color: #ffffff; /* Set font color to white for column headers */
 }
 
 tr:nth-child(even) {
-    background-color: #d3d786;
+    background-color: #1C362E;
 }
 
 tr:nth-child(odd) {
-    background-color: rgb(201, 205, 126); /* Set background color for odd rows */
+    background-color: #1C362E; /* Set background color for odd rows */
 }
 
 td {
-    color: #000000; /* Set font color to black for table data */
+    color: #e4d8ab; /* Set font color to black for table data */
 }
+.again{
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(108, 108, 108)
+}
+
+.again:hover{
+    background-color: rgb(151, 148, 148);
+    color: #dfdfdf;
+    transition: 0.3s;
+  }

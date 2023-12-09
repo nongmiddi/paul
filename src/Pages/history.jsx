@@ -29,7 +29,7 @@ function History() {
                         <td>PREMIUM-COURSE</td>
                         <td>$100</td>
                         <td>
-                            <button onClick={handleBuyAgain}>Buy Again</button>
+                            <button className='again' onClick={handleBuyAgain}>Buy Again</button>
                         </td>
                     </tr>
                     <tr>
@@ -39,7 +39,7 @@ function History() {
                         <td>PREMIUM-COURSE</td>
                         <td>$100</td>
                         <td>
-                            <button onClick={handleBuyAgain}>Buy Again</button>
+                            <button className='again' onClick={handleBuyAgain}>Buy Again</button>
                         </td>
                     </tr>
                     <tr>
@@ -49,7 +49,7 @@ function History() {
                         <td>PREMIUM-COURSE</td>
                         <td>$100</td>
                         <td>
-                            <button onClick={handleBuyAgain}>Buy Again</button>
+                            <button className='again' onClick={handleBuyAgain}>Buy Again</button>
                         </td>
                     </tr>
                     <tr>
@@ -59,7 +59,7 @@ function History() {
                         <td>PREMIUM-COURSE</td>
                         <td>$100</td>
                         <td>
-                            <button onClick={handleBuyAgain}>Buy Again</button>
+                            <button className='again' onClick={handleBuyAgain}>Buy Again</button>
                         </td>
                     </tr>
                     <tr>
@@ -69,7 +69,7 @@ function History() {
                         <td>PREMIUM-COURSE</td>
                         <td>$100</td>
                         <td>
-                            <button onClick={handleBuyAgain}>Buy Again</button>
+                            <button className='again' onClick={handleBuyAgain}>Buy Again</button>
                         </td>
                     </tr>
                     <tr>
@@ -79,7 +79,7 @@ function History() {
                         <td>PREMIUM-COURSE</td>
                         <td>$100</td>
                         <td>
-                            <button onClick={handleBuyAgain}>Buy Again</button>
+                            <button className='again' onClick={handleBuyAgain}>Buy Again</button>
                         </td>
                     </tr>
                     <tr>
@@ -89,7 +89,7 @@ function History() {
                         <td>PREMIUM-COURSE</td>
                         <td>$100</td>
                         <td>
-                            <button onClick={handleBuyAgain}>Buy Again</button>
+                            <button className='again' onClick={handleBuyAgain}>Buy Again</button>
                         </td>
                     </tr>
                     <tr>
@@ -99,7 +99,7 @@ function History() {
                         <td>PREMIUM-COURSE</td>
                         <td>$100</td>
                         <td>
-                            <button onClick={handleBuyAgain}>Buy Again</button>
+                            <button className='again' onClick={handleBuyAgain}>Buy Again</button>
                         </td>
                     </tr>
                     <tr>
@@ -109,7 +109,7 @@ function History() {
                         <td>PREMIUM-COURSE</td>
                         <td>$100</td>
                         <td>
-                            <button onClick={handleBuyAgain}>Buy Again</button>
+                            <button className='again' onClick={handleBuyAgain}>Buy Again</button>
                         </td>
                     </tr>
                     {/* Add more rows as needed */}
