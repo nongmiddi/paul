@@ -104,3 +104,15 @@
   margin-bottom: 15px;
   text-align: center;
 }
+
+.cou {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.coupon {
+  width: 100%; /* Make the image width 100% of its container */
+  max-width: 600px; /* Set a maximum width for the image */
+}

@@ -115,7 +115,21 @@ function App() {
         <a href="/history"><button className="choice-item" >HISTORY</button></a>
       </div>
 
-      
+      <div className='coupons-container'>
+        <div className='cou'>
+         <img className='coupon' src='/images/10per.png' alt='Coupon 1' />
+        </div>
+
+        <div className='cou'>
+         <img className='coupon' src='/images/free.png' alt='Coupon 2' />
+        </div>
+
+        <div className='cou'>
+         <img className='coupon' src='/images/special.png' alt='Coupon 2' />
+        </div>
+      </div>
+
+
       
 
     

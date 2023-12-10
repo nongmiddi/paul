@@ -75,3 +75,45 @@
    margin-left: auto;
    margin-right: auto;
 }
+.top{
+  margin-top: 0;
+  padding: 20px;
+}
+.txt1{
+   color: #f1e1e1;
+   
+}
+
+.bank{
+  width: 25px;
+}
+.ton{
+  text-align: center;
+  margin-top: 10px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+.banshe{
+  width: 250px;
+  height: 25px;
+  background-color: #e4e0cf;
+}
+
+.term{
+  margin-top: 25px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: rgb(108, 108, 108)
+  
+}
+
+.term:hover{
+  background-color: rgb(151, 148, 148);
+  color: #dfdfdf;
+  transition: 0.3s;
+}

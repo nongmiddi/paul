@@ -1,8 +1,18 @@
-// balance.js
-
 import './balance.css';
+import "../components/modal.css";
+import { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope,faXmark } from '@fortawesome/free-solid-svg-icons'
 
 export default function Balance() {
+
+  const [top,setTop]=useState(false);
+
+  const toggleModal4 = () => {
+    console.log('asd')
+    setTop(!top);
+  };
+
   return (
     <div className='balance'>
       <div className='boxx'>
@@ -12,9 +22,32 @@ export default function Balance() {
 
         <div className='pay1'>
           <div>2,000,000 $</div>
-          <button className='depo'>DEPOSIT</button>
+          <button className='depo' onClick={() => {toggleModal4()}}>TOP UP</button>
         </div>
       </div>
+
+
+      {top && (
+        <div className="modal">
+
+          <div className="overlay"></div>
+          <div className="modal-content" style={{width:"350px" , height:"200px" , paddingBottom:"20px" ,paddingTop:"70px"}}>
+          
+          <div className='top'>
+          <div className="close-modal"><button  onClick={toggleModal4}>
+            <FontAwesomeIcon icon={faXmark} />
+          </button></div>
+          <div style={{textAlign:"center"}} className='txt1'>ใส่จำนวนเงิน</div>
+          <div className='ton'>
+            <input className='banshe' type="number" />
+            <input className='term' type="button"  value="เติมเงิน"/>
+
+          </div>
+
+          </div>
+          </div>
+        </div>
+      )}
 
       <div className='tab'>
         <div className='txt'>History</div>
@@ -89,3 +122,4 @@ export default function Balance() {
     </div>
   );
 }
+
